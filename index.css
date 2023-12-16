@@ -1,0 +1,1055 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-image: url('img/background_header.png');
+    background-size: cover;
+}
+
+.hub_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.32;
+
+}
+
+.hub_logo a {
+    text-decoration: none;
+}
+
+.main_hub_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 30px;
+    top: 3px;
+}
+
+.cube_logo {
+    text-align: center;
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+    background: #2C414F;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+}
+
+.cube_logo h1 {
+    position: relative;
+    left: 1px;
+    top: 11px;
+}
+
+.hub_logo h1 {
+    color: #FFF;
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.25);
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.3px;
+    font-family: 'Just Another Hand Regular';
+}
+
+nav {
+    display: flex;
+    flex: 0.8;
+}
+
+.nav_1 {
+    display: flex;
+    justify-content: space-around;
+    flex: 0.7;
+    align-items: center;
+    background-color: #2F4453;
+}
+
+.nav_1 a {
+    height: 20px;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(106, 165, 207, 0.50) 0%, rgba(106, 165, 207, 0.50) 100%), linear-gradient(0deg, rgba(106, 165, 207, 0.50) 0%, rgba(106, 165, 207, 0.50) 100%), linear-gradient(0deg, rgba(106, 165, 207, 0.50) 0%, rgba(106, 165, 207, 0.50) 100%), rgba(106, 165, 207, 0.50);
+    font-family: 'Jua Regular';
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.25) inset, 0px 10px 15px 0px rgba(0, 0, 0, 0.20);
+
+}
+
+.nav_1 .main {
+    padding: 5px 38px 5px 38px;
+    position: relative;
+    left: 10px;
+
+}
+
+.nav_1 .live {
+    padding: 5px 38px 5px 38px;
+    position: relative;
+    left: 5px;
+}
+
+.nav_1 .popular {
+    position: relative;
+    right: 10px;
+}
+
+.nav_2 {
+    display: flex;
+    justify-content: space-around;
+    flex: 0.45;
+    align-items: center;
+    background-color: #3f415c;
+
+}
+
+.nav_2 a {
+    height: 20px;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    font-family: 'Lilita One', sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(122, 100, 211, 0.50) 0%, rgba(122, 100, 211, 0.50) 100%), linear-gradient(0deg, rgba(122, 100, 211, 0.50) 0%, rgba(122, 100, 211, 0.50) 100%), linear-gradient(0deg, rgba(122, 100, 211, 0.50) 0%, rgba(122, 100, 211, 0.50) 100%), rgba(122, 100, 211, 0.50);
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.25) inset, 0px 10px 15px 0px rgba(0, 0, 0, 0.20);
+    font-size: 14px;
+}
+
+.nav_2 .signup {
+    padding: 5px 23px 5px 23px;
+    position: relative;
+    margin-right: 10px;
+    left: 10px;
+}
+
+.nav_2 .login {
+    padding: 5px 27px 5px 28px;
+    position: relative;
+    right: 5px;
+}
+
+.nav_2 .for_art {
+    height: 20px;
+    padding: 5px 15px 3px 15px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: #3F415C;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.25) inset, 0px 10px 15px 0px rgba(0, 0, 0, 0.20);
+    position: relative;
+    right: 10px;
+}
+
+.for_art h1 {
+    font-family: 'Just Another Hand Regular';
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    position: relative;
+    top: 1.5px;
+
+
+}
+
+.section_1 {
+    background-image: url('img/background_section1.png');
+    height: 1035px;
+}
+
+.section_1 .main_section_1 {
+    width: 900px;
+    height: 550px;
+    border-radius: 5px;
+    border: 1px solid #3B6790;
+    background-color: rgba(103, 121, 134, 0.50);
+    background-color: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.25));
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+    margin-left: 260px;
+}
+
+.main_descrp2 {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    position: relative;
+    top: 60px;
+    margin-left: 270px;
+
+}
+
+.join_block {
+    position: relative;
+    top: 20px;
+}
+
+.join_block h1 {
+    color: #FFF;
+    font-family: 'Kavivanar Regular';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.5px;
+
+}
+
+.join_block hr {
+    width: 100px;
+    height: 0px;
+    background: #FFF;
+    position: relative;
+    bottom: 8px;
+}
+
+.melody_hub_2logo {
+    display: flex;
+    padding: 5px 20px 5px 20px;
+    width: 220px;
+    height: 60px;
+    border-radius: 5px;
+    background: #5F9EC8;
+    align-items: center;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+
+}
+
+.melody_hub_2logo h1 {
+    font-family: 'Just Me Again Down Here';
+    color: #FFF;
+    text-shadow: 0px 2.5px 0px #040811;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10px;
+}
+
+.hub_2logo {
+
+    width: 60%;
+    height: 60px;
+    border-radius: 200%;
+    background-color: #2C414F;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+
+}
+
+.hub_2logo h2 {
+    font-family: 'Just Me Again Down Here';
+    color: #FFF;
+    text-shadow: 0px 3px 0px #040811;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10px;
+    letter-spacing: 20px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.main_description {
+    padding: 30px 10px 5px 20px;
+    width: 620px;
+    height: 220px;
+    border-radius: 10px;
+    background: #547289;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 80px;
+    margin-left: 120px;
+
+}
+
+.text_p {
+    padding: 15px 10px 5px 10px;
+    width: 550px;
+    height: 80px;
+    border-radius: 5px;
+    background: #2E3D49;
+    box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    position: relative;
+    margin-left: 20px;
+
+}
+
+.text_p p {
+    color: #FFF;
+    width: 510px;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.50);
+    font-family: 'Kavivanar Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+    position: relative;
+    margin-left: 20px;
+    top: 5px;
+
+}
+
+.buttons_description {
+    position: relative;
+    top: 35px;
+    margin-left: 20px;
+    display: flex;
+    gap: 50px;
+}
+
+.buttons_description h2 {
+    font-family: 'Krub-Regular';
+    color: #FFF;
+
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.7px;
+}
+
+.start_journey {
+    padding: 5px 10px 5px 10px;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: #547289;
+}
+
+.start_journey h2 {
+    position: relative;
+    top: 12px;
+}
+
+.more_space {
+    padding: 5px 5px 5px 0px;
+    width: 160px;
+    height: 45px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #3B6790;
+    background: #3B6790;
+
+
+}
+
+.more_space h2 {
+    position: relative;
+    top: 12px;
+}
+
+.more_space .small_button {
+    padding: 5px 5px 5px 0px;
+    width: 57px;
+    height: 45px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #2E3D49;
+    background: #2E3D49;
+    position: relative;
+    left: 155px;
+    bottom: 27px;
+    align-items: center;
+}
+
+.small_button img {
+    position: relative;
+    top: 12px;
+    left: 2px;
+}
+
+.rectangle_1 {
+    width: 100%;
+    height: 15px;
+    background-color: #38535F;
+    box-shadow: 5px -10px 40px rgba(0, 0, 0, 0.25) inset, 0px 5px 5px rgba(0, 0, 0, 0.25) inset, 0px 1px 5px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.50));
+
+
+}
+
+.section_2 {
+
+    height: 850px;
+    background: #546E7A;
+
+}
+
+.main_section_2 {
+    display: flex;
+}
+
+.screen_block2 {
+    width: 480px;
+    height: 500px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.50);
+
+    margin-left: 150px;
+    position: relative;
+    top: 120px;
+
+}
+
+.screen_block2 img {
+    position: relative;
+    left: 20px;
+    top: 43px;
+}
+
+.section_description_1 {
+    position: relative;
+    top: 220px;
+    margin-left: 130px;
+
+}
+
+.section_description_1 h1 {
+    color: #FFF;
+    font-family: 'KulimPark-Regular';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
+
+}
+
+.section_description_1 p {
+    color: #FFF;
+    width: 530px;
+    font-family: 'Kotta One';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    position: relative;
+    top: 35px;
+}
+
+.section_2_button {
+    width: 130px;
+    padding: 5px 5px 5px 5px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: #546E7A;
+    position: relative;
+    top: 90px;
+    text-align: center;
+
+
+}
+
+.section_2_button h1 {
+    color: #FFF;
+    font-family: 'Krub-Regular';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    position: relative;
+    top: 10px;
+}
+
+.section_3 {
+    height: 850px;
+    background-color: #7BA3B6;
+}
+
+.main_section_3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section_description_3 {
+    position: relative;
+    top: 300px;
+    margin-left: 50px;
+}
+
+.section_description_3 h1 {
+    color: #FFF;
+    font-family: 'KulimPark-Regular';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+.section_description_3 p {
+    width: 530px;
+    color: #FFF;
+    font-family: 'Kotta One';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    position: relative;
+    top: 35px;
+}
+
+.section_3_button {
+    width: 200px;
+
+    padding: 5px 5px 5px 5px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: #7BA3B5;
+    position: relative;
+    top: 90px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+
+.section_3_button h1 {
+    color: #FFF;
+    font-family: 'Krub-Regular';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    position: relative;
+    top: 10px;
+
+}
+
+.screen_block3 {
+    width: 600px;
+    height: 520px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: rgba(120, 143, 178, 0.75);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    position: relative;
+    top: 150px;
+    margin-right: 50px;
+
+}
+
+.screen_block3 .first_block {
+    width: 600px;
+    height: 180px;
+    border-radius: 15px 15px 0px 0px;
+    background: #788AA6;
+    position: relative;
+
+    margin-right: 50px;
+}
+
+.screen_block3 .second_block {
+    width: 600px;
+    height: 180px;
+
+    background: #8A9BB5;
+    position: relative;
+    margin-right: 50px;
+
+}
+
+
+.main_macbook {
+    position: relative;
+    right: 5px;
+    bottom: 340px;
+}
+
+
+.image {
+
+
+    position: relative;
+    margin-left: 88px;
+    bottom: 397px;
+}
+
+.section_4 {
+    height: 850px;
+    background-color: #546E7A;
+
+}
+
+
+
+.main_section_4 {
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+    top: 150px;
+
+}
+
+.screen_block4 {
+    position: relative;
+    left: 50px;
+}
+
+.big_block {
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+    background: rgba(127, 182, 222, 0.50);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    background: #132933;
+    position: relative;
+    left: 50px;
+}
+
+.light_block {
+    width: 205px;
+    height: 295px;
+    border-radius: 0px 15px 0px 0px;
+    background: #89BCDC;
+    position: relative;
+    margin-left: 395px;
+}
+
+.blue_block {
+    width: 205px;
+    height: 205px;
+    flex-shrink: 0;
+    border-radius: 0 0 15px 0;
+    background: rgba(164, 210, 243, 0.5);
+    position: relative;
+    margin-left: 395px;
+
+}
+
+.mix_devices {
+    position: relative;
+    bottom: 460px;
+    left: 130px;
+}
+
+.ipad {
+    position: relative;
+    right: 580px;
+    bottom: 75px;
+}
+
+.iphone_2 {
+    position: relative;
+    left: 100px;
+    bottom: 288px;
+}
+
+.section_description_4 {
+    position: relative;
+    top: 65px;
+    margin-right: 50px;
+}
+
+.section_description_4 h1 {
+    font-family: 'KulimPark-Regular';
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 12px;
+}
+
+.section_description_4 hr {
+    width: 320px;
+    height: 0px;
+    background: #FFF;
+    position: relative;
+    top: 30px;
+    right: 10px;
+}
+
+.section_description_4 h2 {
+    font-family: 'Kite One';
+    color: #FFF;
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+    letter-spacing: 5px;
+    position: relative;
+    top: 40px;
+    right: 60px;
+    margin-bottom: 70px;
+}
+
+.section_description_4 p {
+    color: white;
+    font-family: 'Kotta One';
+    font-size: 17px;
+
+    font-weight: 400;
+
+    letter-spacing: 5px;
+    position: relative;
+    right: 60px;
+}
+
+.p_1 {
+
+    margin-bottom: 30px;
+}
+
+.p_2 {
+    margin-bottom: 10px;
+}
+
+.section_4_button {
+    padding: 5px 5px 5px 5px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: #546E7A;
+    text-align: center;
+    position: relative;
+    top: 65px;
+    right: 60px;
+}
+
+.section_4_button h3 {
+    position: relative;
+    top: 10px;
+    color: #FFF;
+    font-family: 'Krub-Regular';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.7px;
+}
+
+footer {
+    background-color: #202A3E;
+    height: 650px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+
+}
+
+.rectangle_2 {
+    width: 100%;
+    height: 15px;
+    background-color: #38535F;
+    box-shadow: 5px -10px 40px rgba(0, 0, 0, 0.25) inset, 0px 5px 5px rgba(0, 0, 0, 0.25) inset, 0px 1px 5px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.50));
+
+}
+
+.main_hub {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 610px;
+
+}
+
+.last_hub_logo {
+    color: #FFF;
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.5px;
+    font-family: 'Just Another Hand Regular';
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.cube_logo_2 {
+    text-align: center;
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+    background: #2C414F;
+    margin-left: 5px;
+    position: relative;
+    bottom: 10px;
+}
+
+.cube_logo_2 h1 {
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+
+.install {
+    width: 360px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Kufam-Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    margin-left: 530px;
+    margin-top: 35px;
+}
+
+.apps {
+    display: flex;
+    gap: 20px;
+    margin-left: 546px;
+    margin-top: 30px;
+}
+
+.apple {
+    margin-top: 22px;
+}
+
+.folow_us {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Kufam-Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    margin-top: 40px;
+}
+
+.s_media {
+    display: flex;
+    gap: 35px;
+    margin-left: 575px;
+    margin-top: 35px;
+}
+
+.twitter {
+    margin-top: 5px;
+}
+
+.telegram {
+    margin-top: 3px;
+    position: relative;
+    left: 5px;
+}
+.documents {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 430px;
+}
+.documents h3{
+    color: #FFF;
+    text-align: center;
+    font-family: 'KulimPark-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+
+@font-face {
+    font-family: 'Kufam-Regular';
+    src: url('./fonts/kufam-regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/kufam-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/kufam-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/kufam-regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/kufam-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/kufam-regular.svg#kufam-regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Kite One';
+    src: url('./fonts/kite_one.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/kite_one.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/kite_one.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/kite_one.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/kite_one.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/kite_one.svg#kite_one') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'KulimPark-Regular';
+    src: url('./fonts/kulimpark-regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/kulimpark-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/kulimpark-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/kulimpark-regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/kulimpark-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/kulimpark-regular.svg#kulimpark-regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Kotta One';
+    src: url('./fonts/kotta_one.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/kotta_one.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/kotta_one.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/kotta_one.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/kotta_one.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/kotta_one.svg#kotta_one') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Krub-Regular';
+    src: url('./fonts/krub-regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/krub-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/krub-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/krub-regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/krub-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/krub-regular.svg#krub-regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Krub-Medium';
+    src: url('./fonts/krub-medium.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/krub-medium.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/krub-medium.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/krub-medium.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/krub-medium.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/krub-medium.svg#krub-medium') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Krub-SemiBold';
+    src: url('./fonts/krub-semibold.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/krub-semibold.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/krub-semibold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/krub-semibold.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/krub-semibold.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/krub-semibold.svg#krub-semibold') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Kavivanar Regular';
+    src: url('./fonts/kavivanar_regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/kavivanar_regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/kavivanar_regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/kavivanar_regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/kavivanar_regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/kavivanar_regular.svg#kavivanar_regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Just Another Hand Regular';
+    src: url('./fonts/just_another_hand_regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/just_another_hand_regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/just_another_hand_regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/just_another_hand_regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/just_another_hand_regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/just_another_hand_regular.svg#just_another_hand_regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Jua Regular';
+    src: url('./fonts/jua_regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/jua_regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/jua_regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/jua_regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/jua_regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/jua_regular.svg#jua_regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Just Me Again Down Here';
+    src: url('./fonts/just_me_again_down_here.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/just_me_again_down_here.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/just_me_again_down_here.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/just_me_again_down_here.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/just_me_again_down_here.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/just_me_again_down_here.svg#just_me_again_down_here') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}

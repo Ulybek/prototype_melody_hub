@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Kufam-Regular';
+	src: url('../fonts/kufam-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/kufam-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/kufam-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/kufam-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/kufam-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/kufam-regular.svg#kufam-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}

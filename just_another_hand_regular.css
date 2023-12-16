@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Just Another Hand Regular';
+	src: url('../fonts/just_another_hand_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/just_another_hand_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/just_another_hand_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/just_another_hand_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/just_another_hand_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/just_another_hand_regular.svg#just_another_hand_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}

@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Krub-SemiBold';
+	src: url('../fonts/krub-semibold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/krub-semibold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/krub-semibold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/krub-semibold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/krub-semibold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/krub-semibold.svg#krub-semibold') format('svg'); /* Chrome < 4, Legacy iOS */
+}

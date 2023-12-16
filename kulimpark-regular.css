@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'KulimPark-Regular';
+	src: url('../fonts/kulimpark-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/kulimpark-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/kulimpark-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/kulimpark-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/kulimpark-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/kulimpark-regular.svg#kulimpark-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}

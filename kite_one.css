@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Kite One';
+	src: url('../fonts/kite_one.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/kite_one.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/kite_one.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/kite_one.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/kite_one.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/kite_one.svg#kite_one') format('svg'); /* Chrome < 4, Legacy iOS */
+}
